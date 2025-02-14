@@ -89,6 +89,8 @@ class Server:
         history = History()
 
         # Initialize parameters
+        print('hi, this it test!')
+        print(f'num_rounds:{num_rounds}')
         log(INFO, "[INIT]")
         self.parameters = self._get_initial_parameters(server_round=0, timeout=timeout)
         log(INFO, "Starting evaluation of initial global parameters")
